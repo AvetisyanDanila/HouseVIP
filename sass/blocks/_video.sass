@@ -1,0 +1,45 @@
+.video
+    position: relative
+    & a 
+        text-decoration: none
+        outline: none
+    &__body
+        display: flex
+        justify-content: center
+    &-block
+        position: relative
+        & svg
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+            z-index: 1
+            transition: 0.3s
+            & path
+                transition: 0.3s
+        & img
+            width: 100%
+        &::after
+            content: ''
+            position: absolute
+            top: 0
+            left: 0
+            width: 100%
+            height: 100%
+            background: linear-gradient(0deg, rgba(36, 43, 51, 0.8), rgba(36, 43, 51, 0.8))
+            transition: 0.3s
+        &:hover::after
+            @media screen and ( min-width: 992px )
+                opacity: 0
+        &:hover
+            & svg
+                @media screen and ( min-width: 992px )
+                    transform: translate(-50%, -50%) scale(1.1)
+                & path
+                    @media screen and ( min-width: 992px )
+                        fill: white
+    &__num
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        right: 2%

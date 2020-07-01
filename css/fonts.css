@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'PlayfairDisplay Bold';
+  src: url("../fonts/PlayfairDisplay-Bold.woff") format("woff");
+  src: url("../fonts/PlayfairDisplay-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'PostNoBillsJaffna SemiBold';
+  src: url("../fonts/PostNoBillsJaffna-SemiBold.woff") format("woff");
+  src: url("../fonts/PostNoBillsJaffna-SemiBold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Raleway Bold';
+  src: url("../fonts/Raleway-Bold.woff") format("woff");
+  src: url("../fonts/Raleway-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Raleway Regular';
+  src: url("../fonts/Raleway-Regular.woff") format("woff");
+  src: url("../fonts/Raleway-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Roboto Light';
+  src: url("../fonts/Roboto-Light.woff") format("woff");
+  src: url("../fonts/Roboto-Light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal; }
+/*# sourceMappingURL=fonts.css.map */

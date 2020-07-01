@@ -1,0 +1,40 @@
+.questions
+    padding: 100px 0
+    @media screen and ( max-width: 991px )
+        padding: 50px 0
+    &-form
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-top: 50px
+        flex-wrap: wrap
+        @media screen and ( max-width: 991px )
+            margin-top: 30px
+        @media screen and ( max-width: 767px )
+            flex-direction: column
+        &__input
+            width: calc(25% - 30px)
+            @media screen and ( max-width: 991px )
+                width: 23%
+            @media screen and ( max-width: 767px )
+                width: 80%
+                margin-bottom: 30px
+                order: 1
+        &__button
+            width: calc(25% - 30px)
+            @media screen and ( max-width: 991px )
+                width: 23%
+                padding: 12px 20px!important
+            @media screen and ( max-width: 767px )
+                width: 80%
+                margin-bottom: 30px
+                order: 3
+        &__label
+            width: calc(25% - 30px)
+            max-width: 255px
+            @media screen and ( max-width: 991px )
+                width: 23%
+            @media screen and ( max-width: 767px )
+                width: 80%
+                margin-bottom: 30px
+                order: 2

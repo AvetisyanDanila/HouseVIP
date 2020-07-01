@@ -1,0 +1,45 @@
+.about
+    padding-top: 100px
+    position: relative
+    @media screen and ( max-width: 991px )
+        padding-top: 50px
+    &-blocks
+        display: flex
+        justify-content: center
+        @media screen and ( max-width: 767px )
+            flex-wrap: wrap
+            flex-direction: column
+            align-items: center
+    &-block
+        display: flex
+        flex-direction: column
+        align-items: center
+        margin-right: 70px
+        @media screen and ( max-width: 767px )
+            width: 100%
+            margin-bottom: 30px
+            margin-right: 0
+        &:last-child
+            margin-right: 0
+        &__img
+            margin-bottom: 50px
+            @media screen and ( max-width: 767px )
+                margin-bottom: 30px
+        &__text
+            font-family: 'Roboto Light'
+            font-size: 20px
+            line-height: 27px
+            text-align: center
+            color: #fff
+            max-width: 193px
+            @media screen and ( max-width: 991px )
+                font-size: 16px
+                line-height: 24px
+    &__num
+        position: absolute
+        top: -50%
+        right: 10%
+        @media screen and ( max-width: 1600px )
+            top: -35%
+        @media screen and ( max-width: 991px )
+            top: 25%

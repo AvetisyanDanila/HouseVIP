@@ -1,0 +1,72 @@
+.watch
+    padding: 100px 0
+    background: linear-gradient(180deg, #242B33 10.42%, rgba(36, 43, 51, 0) 50.52%, #242B33 90.1%), linear-gradient(0deg, rgba(36, 43, 51, 0.9), rgba(36, 43, 51, 0.9)), url(../img/district/bg.jpg), #C4C4C4
+    background-repeat: no-repeat
+    background-size: cover
+    @media screen and ( max-width: 991px )
+        padding: 50px 0
+    &__body
+        display: flex
+        justify-content: space-between
+        align-items: center
+        @media screen and ( max-width: 991px )
+            flex-direction: column
+            align-items: start
+    &_left
+        width: 50%
+        @media screen and ( max-width: 1199px )
+            margin-right: 30px
+        @media screen and ( max-width: 991px )
+            width: 100%
+            margin-bottom: 30px
+    &_right
+        width: 50%
+        @media screen and ( max-width: 991px )
+            width: 100%
+    &__title
+        margin-bottom: 70px
+        margin-bottom: 30px
+    &__text
+        font-family: 'Raleway Regular'
+        font-size: 16px
+        line-height: 150%
+        color: #fff
+        max-width: 535px
+        @media screen and ( max-width: 991px )
+            max-width: none
+            text-align: center
+    &-form
+        width: 100%
+        display: flex
+        flex-wrap: wrap
+        align-items: center
+        @media screen and ( max-width: 767px )
+            flex-direction: column
+        &__input
+            width: calc(50% - 30px)
+            margin-right: 30px
+            margin-bottom: 35px
+            @media screen and ( max-width: 767px )
+                width: 80%
+                margin-right: 0
+            &::placeholder
+                font-family: 'Raleway Regular'
+                font-size: 14px
+                line-height: 27px
+                color: #BEBEBE
+            &:nth-of-type(2)
+                margin-right: 0
+        &__label
+            width: calc(50% - 30px)
+            margin-right: 30px
+            @media screen and ( max-width: 767px )
+                margin-right: 0
+                width: 80%
+        &__button
+            width: calc(50% - 30px)
+            @media screen and ( max-width: 1199px )
+                padding: 12px 20px!important
+            @media screen and ( max-width: 767px )
+                width: 80%
+                margin-top: 30px
+                

@@ -1,0 +1,63 @@
+@import 'fonts.sass'
+@import 'blocks/_header.sass'
+@import 'blocks/_main.sass'
+@import 'blocks/_about.sass'
+@import 'blocks/_catalog.sass'
+@import 'blocks/_watch.sass'
+@import 'blocks/_video.sass'
+@import 'blocks/_map.sass'
+@import 'blocks/_questions.sass'
+@import 'blocks/_footer.sass'
+
+.body
+    background-color: #242B33
+.body.lock
+    overflow: hidden
+.num
+    font-family: 'PlayfairDisplay Bold'
+    font-size: 400px
+    line-height: 553px
+    color: #fff
+    opacity: 0.02
+    z-index: -1
+    @media screen and ( max-width: 1600px )
+        font-size: 250px
+        line-height: 403px
+.title
+    font-family: 'PlayfairDisplay Bold'
+    font-size: 36px
+    line-height: 48px
+    color: #D4C17F
+    @media screen and ( max-width: 767px )
+        text-align: center
+.form
+    &__input
+        border: none
+        background-color: rgba(255, 255, 255, 0.2)
+        padding: 12px
+        padding-left: 12px
+        font-family: 'Raleway Regular'
+        font-size: 14px
+        line-height: 27px
+        color: #BEBEBE
+        &::placeholder
+            font-family: 'Raleway Regular'
+            font-size: 14px
+            line-height: 27px
+            color: #BEBEBE
+    &__label
+        display: block
+        font-family: 'Raleway Regular'
+        font-size: 13px
+        line-height: 16px
+        text-align: center
+        color: #E7E7E7
+    &__button
+        font-family: 'Raleway Bold'
+        font-size: 16px
+        line-height: 27px
+        color: #fff
+        border: none
+        background-color: #D4C17F
+        padding: 12px 54px
+        white-space: nowrap
